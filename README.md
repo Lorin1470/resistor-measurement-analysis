@@ -1,7 +1,7 @@
 # 電子電路實習 - 實驗一：電阻量測與誤差分析
 
-[![Open all.ipynb in Colab](https://img.shields.io/badge/Colab-開啟%20all.ipynb%20(整合版)-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Lorin1470/resistor-measurement-analysis/blob/main/all.ipynb)
-[![Open original.ipynb in Colab](https://img.shields.io/badge/Colab-開啟%20original.ipynb%20(原版自訂)-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Lorin1470/resistor-measurement-analysis/blob/main/original.ipynb)
+[![Open Batch Analysis in Colab](https://img.shields.io/badge/Colab-開啟%20多組整合版%20(resistor__analysis__batch.ipynb)-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Lorin1470/resistor-measurement-analysis/blob/main/resistor_analysis_batch.ipynb)
+[![Open Custom Analysis in Colab](https://img.shields.io/badge/Colab-開啟%20單組自訂版%20(resistor__analysis__custom.ipynb)-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Lorin1470/resistor-measurement-analysis/blob/main/resistor_analysis_custom.ipynb)
 
 本專案提供「電子電路實習（實驗一）」修復後的 Python 繪圖與統計程式。解決了原版講義程式碼的繁體中文亂碼與字型顯示問題，並附上 Colab 執行說明與圖片。
 
@@ -18,12 +18,13 @@
 
 ## 程式說明
 
-### 1. 整合版（`all.ipynb` - 直接跑就行）
+### 1. 多組批次整合版（`resistor_analysis_batch.ipynb` - 直接跑就行）
 > **給組員的提醒**：
-> `all.ipynb` 已經將我們實驗量測到的 5 次數據與對應標稱真值全部輸入完畢。**你不需要修改任何程式碼**，點擊 Colab 按鈕執行就可以拿到所有報告要寫的數據與圖表！
+> `resistor_analysis_batch.ipynb` 已經將我們實驗量測到的 3 組電阻、各 5 次數據與標稱真值全部輸入完畢。**你不需要修改任何程式碼**，點擊 Colab 按鈕執行就可以拿到所有報告要寫的數據與圖表！
 
-### 2. 原版程式自訂數據填寫方式（`original.ipynb`）
-若你使用的是單組版 `original.ipynb` 或想測量其他電阻，請找到程式碼中的 **「第 2 區塊」** 進行修改：
+### 2. 單組自訂版（`resistor_analysis_custom.ipynb`）
+若你使用的是單組版 `resistor_analysis_custom.ipynb` 或想測量其他電阻，請找到程式碼中的 **「第 2 區塊」** 進行修改：
+
 
 ```python
 # ==========================================

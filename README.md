@@ -1,7 +1,7 @@
 # 電子電路實習 - 實驗一：電阻量測與誤差分析
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lorin1470/resistor-measurement-analysis/blob/main/all.ipynb)
-[![Open In Colab (Original)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lorin1470/resistor-measurement-analysis/blob/main/original.ipynb)
+[![Open all.ipynb in Colab](https://img.shields.io/badge/Colab-開啟%20all.ipynb%20(整合版)-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Lorin1470/resistor-measurement-analysis/blob/main/all.ipynb)
+[![Open original.ipynb in Colab](https://img.shields.io/badge/Colab-開啟%20original.ipynb%20(原版自訂)-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Lorin1470/resistor-measurement-analysis/blob/main/original.ipynb)
 
 本專案提供「電子電路實習（實驗一）」修復後的 Python 繪圖與統計程式。解決了原版講義程式碼的繁體中文亂碼與字型顯示問題，並附上 Colab 執行說明與圖片。
 
